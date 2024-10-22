@@ -11,17 +11,20 @@ namespace Labb_2___Arv
             var spider = new Spider();
             var mako = new MakoShark();
             var wobb = new Wobbegong();
+            var gran = new PineTree();
 
 
             animal.MakeSound();
             bear.MakeSound();
-            shark.MakeSound();
             spider.MakeSound();
             mako.MakeSound();
             wobb.MakeSound();
+            wobb.Hide();
+            gran.Decorate();
 
             bear.Feed(bear.FatReserves);
-            Console.WriteLine(bear.Classification);
+
+
         }
     }
 }

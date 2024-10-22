@@ -38,7 +38,7 @@
 
         public void MakeSound()
         {
-            Console.WriteLine($"{Name} goes {Sound}");
+            Console.WriteLine($"{Name} goes {Sound}!!!");
         }
 
     }

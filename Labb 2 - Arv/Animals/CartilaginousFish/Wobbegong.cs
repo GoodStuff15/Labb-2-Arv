@@ -25,7 +25,7 @@ namespace Labb_2___Arv
 
         public void Hide()
         {
-            Console.WriteLine($"The {Name} hides using its {Camouflage}");
+            Console.WriteLine($"The {Name} hides using its {Camouflage.ToLower()}");
         }
     }
 }

@@ -72,6 +72,7 @@
         // Overloaded Feed method
         public void Feed(int fat)
         {
+            base.Feed();
             if(fat == 100)
             {
                 Console.WriteLine($"{Name} is full and ready for hibernation!");
