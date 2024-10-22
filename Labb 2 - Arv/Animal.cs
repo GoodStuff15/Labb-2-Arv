@@ -5,14 +5,13 @@
 
         // Egenskaper för djur
 
-
         private int _lifeExpectancy;
         private string _sound;
 
         // Properties
 
-        public int LifeExpectancy { get => _lifeExpectancy; set => _lifeExpectancy = value; }
-        public string Sound { get => _sound; set => _sound = value; }
+        public int LifeExpectancy { get => _lifeExpectancy; protected set => _lifeExpectancy = value; }
+        public string Sound { get => _sound; protected set => _sound = value; }
 
         // Constructor
         public Animal()
@@ -39,7 +38,7 @@
 
         public void MakeSound()
         {
-            Console.WriteLine(Sound);
+            Console.WriteLine($"{Name} goes {Sound}");
         }
 
     }

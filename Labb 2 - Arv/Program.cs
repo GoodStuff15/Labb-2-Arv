@@ -21,6 +21,7 @@ namespace Labb_2___Arv
             wobb.MakeSound();
 
             bear.Feed(bear.FatReserves);
+            Console.WriteLine(bear.Classification);
         }
     }
 }

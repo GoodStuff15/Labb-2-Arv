@@ -6,8 +6,8 @@
         public Human()
         {
             Name = "Människa";
-            Phylum = "Ryggsträngsdjur";
             Family = "Hominider";
+            Sound = "Bla bla bla";
         }
 
     }

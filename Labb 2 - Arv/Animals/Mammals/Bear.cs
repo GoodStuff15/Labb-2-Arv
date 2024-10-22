@@ -1,6 +1,6 @@
 ﻿namespace Labb_2___Arv
 {
-    internal class Bear : Animal
+    internal class Bear : Mammal
     {
         private string _furColor;
         private int _fatReserves;
@@ -57,7 +57,6 @@
         public Bear()
         {
             Name = "Björn";
-            Phylum = "Ryggsträngsdjur";
             Family = "Björnar";
             Habitat = "Land";
             LifeExpectancy = 30;
