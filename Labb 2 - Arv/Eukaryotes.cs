@@ -1,12 +1,12 @@
 ﻿namespace Labb_2___Arv
 {
-    internal class Eukaryotes
+    internal abstract class Eukaryotes
     {
-        private string _name;
-        private string _phylum;
-        private string _classification;
-        private string _family;
-        private string _habitat;
+        private string _name = "Default";
+        private string _phylum = "Default";
+        private string _classification = "Default";
+        private string _family = "Default";
+        private string _habitat = "Default";
         public string Name { get => _name; set => _name = value; }
         public string Phylum { get => _phylum; set => _phylum = value; }
         public string Classification { get => _classification; set => _classification = value; }
@@ -16,11 +16,7 @@
 
         public Eukaryotes()
         {
-            Name = "Default";
-            Phylum = "Default";
-            Classification = "Default";
-            Family = "Default";
-            Habitat = "Default";
+ 
         }
     }
 }

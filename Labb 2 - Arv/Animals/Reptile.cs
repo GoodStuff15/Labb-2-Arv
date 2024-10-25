@@ -6,7 +6,7 @@
         public Reptile()
         {
             Phylum = "Ryggsträngsdjur";
-            Name = "Default Kräldjur";
+            Name += " Kräldjur";
             Family = "Kräldjur";
 
         }

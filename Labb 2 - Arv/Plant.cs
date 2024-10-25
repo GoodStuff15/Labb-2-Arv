@@ -4,7 +4,7 @@
     {
         public Plant()
         {
-            Name = "Default Plant";
+            Name += " Plant";
 
         }
 

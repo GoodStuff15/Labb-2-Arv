@@ -28,7 +28,7 @@
             }
             else
             {
-                Console.WriteLine("Vi får vänta med att klä granen lite till :(");
+                Console.WriteLine($"Vi får vänta med att klä granen i {12 - DateTime.Now.Month} månader till :(");
             }
         }
     }

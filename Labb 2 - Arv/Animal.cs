@@ -6,7 +6,7 @@
         // Egenskaper för djur
 
         private int _lifeExpectancy;
-        private string _sound;
+        private string _sound = "Default Sound";
 
         // Properties
 
@@ -17,7 +17,7 @@
         public Animal()
         {
             LifeExpectancy = 0;
-            Sound = "Default";
+            Name += " Animal";
         }
         // Metoder
 

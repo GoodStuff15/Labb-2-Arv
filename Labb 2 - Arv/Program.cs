@@ -16,6 +16,7 @@ namespace Labb_2___Arv
 
             animal.MakeSound();
             bear.MakeSound();
+            shark.MakeSound();
             spider.MakeSound();
             mako.MakeSound();
             wobb.MakeSound();

@@ -11,6 +11,7 @@
             Phylum = "Ryggsträngsdjur";
             Classification = "Broskfiskar";
             TypeOfTeeth = "Default";
+            Name += "(Shark)";
         }
         private void SensePrey()
         {
